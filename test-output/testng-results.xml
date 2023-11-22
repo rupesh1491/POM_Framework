@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T19:36:22 IST" name="Default suite" finished-at="2023-11-20T19:36:30 IST" duration-ms="8145">
+  <suite started-at="2023-11-22T19:08:57 IST" name="Default suite" finished-at="2023-11-22T19:09:05 IST" duration-ms="7721">
     <groups>
     </groups>
-    <test started-at="2023-11-20T19:36:22 IST" name="Default test" finished-at="2023-11-20T19:36:30 IST" duration-ms="8145">
+    <test started-at="2023-11-22T19:08:57 IST" name="Default test" finished-at="2023-11-22T19:09:05 IST" duration-ms="7721">
       <class name="com.crm.qa.testcases.registerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.registerTest@6dc17b83]" started-at="2023-11-20T19:36:22 IST" name="setUp" finished-at="2023-11-20T19:36:28 IST" duration-ms="5594" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-11-22T19:08:58 IST" name="setUp" finished-at="2023-11-22T19:09:03 IST" duration-ms="4710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="applyforleave(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.qa.testcases.registerTest@6dc17b83]" started-at="2023-11-20T19:36:28 IST" name="applyforleave" data-provider="getleaveestData" finished-at="2023-11-20T19:36:30 IST" duration-ms="1768" status="PASS">
+        <test-method signature="Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-11-22T19:09:03 IST" name="Register" data-provider="getleaveestData" finished-at="2023-11-22T19:09:05 IST" duration-ms="2214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,8 +71,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- applyforleave -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.registerTest@6dc17b83]" started-at="2023-11-20T19:36:30 IST" name="tearDown" finished-at="2023-11-20T19:36:30 IST" duration-ms="239" status="PASS">
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-11-22T19:09:05 IST" name="tearDown" finished-at="2023-11-22T19:09:05 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

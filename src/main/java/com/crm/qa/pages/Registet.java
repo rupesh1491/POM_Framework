@@ -12,8 +12,7 @@ public class Registet extends TestBase {
 	
 commonmethod page;
 	
-	private static final Logger log = LogManager.getLogger(LeavePage.class);
-
+private static final Logger log = LogManager.getLogger(Registet.class);
 	
 	public Registet(){
 		PageFactory.initElements(driver, this);
@@ -125,7 +124,7 @@ commonmethod page;
 		log.info("click  submit");
 	}
 	
-	public void enter_dataonRegisterpage(String fname,String lname,String Phone,String address1,String city, String state,String postal, String condd,String usname, String pwd,String cnfpwd) {
+	public void enter_dataonRegisterpage(String fname,String lname,String Phone,String address1,String city, String state,String postal, String condd,String usname, String pwd,String cnfpwd) throws InterruptedException {
 		clickregister();
 		enterfirstname(fname);
 		enterlastname(lname);
@@ -139,6 +138,7 @@ commonmethod page;
 		password(pwd);
 		confirmpassword(cnfpwd);
 		clicksubmit();
+		//Thread.sleep(10000);
 		
 		
 	}

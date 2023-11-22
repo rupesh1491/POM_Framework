@@ -35,7 +35,7 @@ public class registerTest extends TestBase {
 
 }
 	@Test(dataProvider="getleaveestData")
-	public void applyforleave(String fname,String lname,String Phone,String address1,String city, String state, String postal,String condd,String usname, String pwd,String cnfpwd) throws InterruptedException {
+	public void Register(String fname,String lname,String Phone,String address1,String city, String state, String postal,String condd,String usname, String pwd,String cnfpwd) throws InterruptedException {
 		//homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		reg=new Registet();
 		reg.enter_dataonRegisterpage(fname,lname,Phone,address1, city, state, postal,condd, usname, pwd,cnfpwd);
