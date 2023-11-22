@@ -8,10 +8,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import com.crm.qa.util.TestUtil;
 import com.crm.qa.util.WebEventListener;
@@ -41,11 +43,11 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "/Users/naveenkhunteta/Downloads/chromedriver");	
+			//System.setProperty("webdriver.chrome.driver", "/Users/naveenkhunteta/Downloads/chromedriver");	
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
+			//System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
 			driver = new FirefoxDriver(); 
 		}
 		
@@ -67,7 +69,20 @@ public class TestBase {
 	
 	
 	
+public void selectdropdown(WebElement element, String text) {
+		
+		Select a=new Select(element);
+		a.selectByVisibleText(text);
+	}
+
+public void entertext(WebElement element,String text) {
+	element.sendKeys(text);
 	
+}
+
+public void clickbutton(WebElement element) {
+	element.click();
+}
 	
 	
 	

@@ -6,11 +6,12 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.aventstack.extentreports.model.Log;
 import com.crm.qa.base.TestBase;
 
 public class HomePage extends TestBase {
 
-	@FindBy(xpath = "//td[contains(text(),'User: Naveen K')]")
+	@FindBy(xpath = "//h6[text()='Dashboard']")
 	@CacheLookup
 	WebElement userNameLabel;
 
@@ -26,6 +27,9 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = "//a[contains(text(),'Tasks')]")
 	WebElement tasksLink;
+	
+	@FindBy(xpath="(//button[@title='Assign Leave']//following::*)[1]")
+	WebElement applyleave;
 
 	// Initializing the Page Objects:
 	public HomePage() {
@@ -60,6 +64,11 @@ public class HomePage extends TestBase {
 		Actions action = new Actions(driver);
 		action.moveToElement(contactsLink).build().perform();
 		newContactLink.click();
+		
+	}
+	
+	public void clickApplyleave() {
+		applyleave.click();
 		
 	}
 	
