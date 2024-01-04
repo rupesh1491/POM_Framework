@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-22T19:08:57 IST" name="Default suite" finished-at="2023-11-22T19:09:05 IST" duration-ms="7721">
+  <suite started-at="2023-12-18T18:30:42 IST" name="FREE CRM Application Test Automation Test Suite" finished-at="2023-12-18T18:30:55 IST" duration-ms="12222">
     <groups>
     </groups>
-    <test started-at="2023-11-22T19:08:57 IST" name="Default test" finished-at="2023-11-22T19:09:05 IST" duration-ms="7721">
+    <test started-at="2023-12-18T18:30:42 IST" name="Free CRM App Test Cases" finished-at="2023-12-18T18:30:55 IST" duration-ms="12222">
       <class name="com.crm.qa.testcases.registerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-11-22T19:08:58 IST" name="setUp" finished-at="2023-11-22T19:09:03 IST" duration-ms="4710" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-12-18T18:30:43 IST" name="setUp" finished-at="2023-12-18T18:30:51 IST" duration-ms="7698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-11-22T19:09:03 IST" name="Register" data-provider="getleaveestData" finished-at="2023-11-22T19:09:05 IST" duration-ms="2214" status="PASS">
+        <test-method signature="Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-12-18T18:30:51 IST" name="Register" data-provider="getleaveestData" finished-at="2023-12-18T18:30:54 IST" duration-ms="3190" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,11 +72,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-11-22T19:09:05 IST" name="tearDown" finished-at="2023-11-22T19:09:05 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.registerTest@6e20b53a]" started-at="2023-12-18T18:30:54 IST" name="tearDown" finished-at="2023-12-18T18:30:55 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.registerTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
 </testng-results>
